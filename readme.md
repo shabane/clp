@@ -92,5 +92,5 @@ test the installation
 
 ## license
 
-- [GPL]()
+- [GPL](https://github.com/shabane/clp/blob/master/license)
 - work on my machine
