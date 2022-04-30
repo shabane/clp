@@ -59,12 +59,9 @@ if len(sys.argv) >= 2:
         help()
     elif len(sys.argv) >= 3:
         if sys.argv[1] == '-i' or sys.argv[1] == '--input-file':
-            if sys.argv[2:]:
-                copyFromFile(sys.argv[2:])
-            else:
-                print('fetal: no input file given')
-                sys.exit(1)
+            copyFromFile(sys.argv[2:])
     else:
+        print('warning: no input was given, consider args as input text')
         copyFromArg()
 else:
     copyFromPipe()
