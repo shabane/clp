@@ -96,6 +96,21 @@ test the installation
 ```
 
 
+## preview
+
+> from input file
+> ![input](https://bit-orbit.github.io/CDN/files/images/input.gif)
+
+> pipe result to clp
+> ![pipe](https://bit-orbit.github.io/CDN/files/images/pipe.gif)
+
+> type a text and then copy it to clipboard
+> ![promt](https://bit-orbit.github.io/CDN/files/images/promt.gif)
+
+> consider args as text to copy
+> ![arg](https://bit-orbit.github.io/CDN/files/images/arg.gif)
+
+
 ## license
 
 - [GPL](https://github.com/shabane/clp/blob/master/license)
