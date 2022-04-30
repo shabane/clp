@@ -83,6 +83,12 @@ add the clp to user programs
   $ cp clp.py ~/.local/bin/clp
 ```
 
+add execute permission to clp
+
+```bash
+    $ chmod +x ~/.local/bin/clp
+```
+
 test the installation
 
 ```bash
