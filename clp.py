@@ -6,7 +6,35 @@ import os
 
 def help():
     print("""
-        this is help
+    DESCRIOTOON
+      copy stdin or file content to clipboard.
+      in order to copy the resutl of one program to clipboard you should
+      pipe the result to clp.
+      
+      if you do not use switches, the stdin will copy to clipboard
+      
+    OPTIONS
+      -h, --help
+        display this help and exit.
+      
+      -i, --input-file
+        read the path file and copy the file content to clipboard.
+
+    EXAMPLES
+        Example I
+        ls /var | clp 
+        clp will copy the list of files cite in the /var directory
+                
+        Example II 
+        clp -i /var/log/syslog
+        clp will read the content of the /var/log/syslog file and then copy that content to clipboard        
+        
+        Example III
+        clp 'this text will copy to clipboard as well as other way'
+        
+        Example IV
+        clp
+        this will get your text from the prompt. you should press ctrl+D to done the writing.
     """)
     sys.exit(0)
 
