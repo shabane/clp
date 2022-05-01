@@ -4,6 +4,16 @@ sometimes we need to **copy result of some program to clipboard**. or we need to
 copy a text file to clipboard. this simple program will help you on that.
 
 
+## tabebl of content
+
+> - [features](#features)
+> - [usage](#usage)
+> - [examples](#examples)
+> - [preview](#preview)
+> - [installation](#installation)
+> - [license](#license)
+
+
 ## features
 
 1. you can *pipe* any text base result of a program.
@@ -61,6 +71,21 @@ copy a text file to clipboard. this simple program will help you on that.
 ```
 
 
+## preview
+
+> from input file
+> ![input](https://bit-orbit.github.io/CDN/files/images/input.gif)
+
+> pipe result to clp
+> ![pipe](https://bit-orbit.github.io/CDN/files/images/pipe.gif)
+
+> type a text and then copy it to clipboard
+> ![promt](https://bit-orbit.github.io/CDN/files/images/promt.gif)
+
+> consider args as text to copy
+> ![arg](https://bit-orbit.github.io/CDN/files/images/arg.gif)
+
+
 ## installation
 
 install dependencies
@@ -94,21 +119,6 @@ test the installation
 ```bash
     $ clp -h
 ```
-
-
-## preview
-
-> from input file
-> ![input](https://bit-orbit.github.io/CDN/files/images/input.gif)
-
-> pipe result to clp
-> ![pipe](https://bit-orbit.github.io/CDN/files/images/pipe.gif)
-
-> type a text and then copy it to clipboard
-> ![promt](https://bit-orbit.github.io/CDN/files/images/promt.gif)
-
-> consider args as text to copy
-> ![arg](https://bit-orbit.github.io/CDN/files/images/arg.gif)
 
 
 ## license
